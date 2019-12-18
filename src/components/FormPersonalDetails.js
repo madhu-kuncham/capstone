@@ -45,11 +45,63 @@ export class FormPersonalDetails extends Component {
 							fullWidth="true"
             />
             <br />
+           
+
             <TextField
-              placeholder="Enter Your Bio"
-              label="Bio"
-              onChange={handleChange('bio')}
-              defaultValue={values.bio}
+              placeholder="Enter Your Experience"
+              label="Experience"
+              onChange={handleChange('experience')}
+              defaultValue={values.experience}
+              margin="normal"
+							fullWidth="true"
+            />
+            <br />
+
+            <TextField
+            placeholder="Enter Your College"
+            label="College"
+            onChange={handleChange('college')}
+            defaultValue={values.college}
+            margin="normal"
+            fullWidth="true"
+          />
+          <br />
+
+            <TextField
+              placeholder="Enter Your Qualification"
+              label="Qualification"
+              onChange={handleChange('qualification')}
+              defaultValue={values.qualification}
+              margin="normal"
+							fullWidth="true"
+            />
+            <br />
+
+            <TextField
+              placeholder="Enter Your CourtLocation1"
+              label="CourtLocation1"
+              onChange={handleChange('courtlocation1')}
+              defaultValue={values.courtlocation1}
+              margin="normal"
+							fullWidth="true"
+            />
+            <br />
+
+            <TextField
+              placeholder="Enter Your CourtLocation2"
+              label="CourtLocation2"
+              onChange={handleChange('courtlocation2')}
+              defaultValue={values.courtlocation2}
+              margin="normal"
+							fullWidth="true"
+            />
+            <br />
+
+            <TextField
+              placeholder="Enter Your CourtLocation3"
+              label="CourtLocation3"
+              onChange={handleChange('courtlocation3')}
+              defaultValue={values.courtlocation3}
               margin="normal"
 							fullWidth="true"
             />

@@ -19,7 +19,7 @@ export class Confirm extends Component {
 
   render() {
     const {
-      values: { firstName, lastName, email, occupation, city, bio }
+      values: { firstName, lastName, email, mobileNumber , occupation, city, experience , college , qualification , courtLoaction1 , courtLoaction2 , courtLoaction3}
     } = this.props;
     return (
       <MuiThemeProvider >
@@ -41,13 +41,31 @@ export class Confirm extends Component {
               <ListItemText primary="Email" secondary={email} /> 
             </ListItem>
             <ListItem>
+              <ListItemText primary="Mobile Number" secondary={mobileNumber} /> 
+            </ListItem>
+            <ListItem>
               <ListItemText primary="Occupation" secondary={occupation} /> 
             </ListItem>
             <ListItem>
               <ListItemText primary="City" secondary={city} /> 
             </ListItem>
             <ListItem>
-              <ListItemText primary="Bio" secondary={bio} /> 
+              <ListItemText primary="Experience" secondary={experience} /> 
+            </ListItem>
+            <ListItem>
+              <ListItemText primary="College" secondary={college} /> 
+            </ListItem>
+            <ListItem>
+              <ListItemText primary="Qualification" secondary={qualification} /> 
+            </ListItem>
+            <ListItem>
+              <ListItemText primary="CourtLocation1" secondary={courtLoaction1} /> 
+            </ListItem>
+            <ListItem>
+              <ListItemText primary="CourtLocation2" secondary={courtLoaction2} /> 
+            </ListItem>
+            <ListItem>
+              <ListItemText primary="CourtLocation3" secondary={courtLoaction3} /> 
             </ListItem>
           </List>
           <br />
